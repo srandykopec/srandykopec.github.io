@@ -42,7 +42,7 @@
     height: 8rem;
 }
 
-.result__div-kruh, .result__h3-vysledok{
+.result__h1-skore, .result__h3-vysledok{
   color: var(--zelena);
 }
 
