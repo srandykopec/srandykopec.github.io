@@ -42,16 +42,41 @@
     height: 8rem;
 }
 
-.result__h1-skore, .result__h3-vysledok{
+.summary{
+  margin: 2rem;
+}
+.summary__section-p-img{
+  display: flex;
+  gap: .8rem;
+}
+
+.summary__section{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  margin: 1rem 0;
+border-radius: .5em;
+}
+
+.summary__p-hodnota{
+  align-self: right;
+}
+.summary__section--cerveny{
+    background-color: hsl(0, 82%, 96%);
+    color: var(--orange);
+}
+
+.summary__section--zlty{
+  background-color: hsl(41, 100%, 95%);
+  color: var(--oranzovo-zlta);
+}
+
+.summary__section--zeleny{
+  background-color: hsl(166, 100%, 94%);
   color: var(--zelena);
 }
 
-
-
-
-
-
-.summary__section--cerveny{
-    background-color: var(--orange);
-    color: darken(var(--orange));
+.summary__section--modry{
+  background-color: hsl(233, 27%, 81%);
+  color: var(--modra);
 }
