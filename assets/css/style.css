@@ -42,6 +42,11 @@
     height: 8rem;
 }
 
+.result__div-kruh{
+  color: var(--zelena);
+}
+
+
 h3{
     color: var(--zelena);
 }
